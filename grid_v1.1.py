@@ -3,7 +3,6 @@ import ast
 
 def challenge():
 
-  dicts_from_file = []
   with open('../dictionary.txt','r') as inf:
     dict_from_file = ast.literal_eval(inf.read())
 
